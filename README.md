@@ -2,9 +2,7 @@
 
 **Little Minds AI** is an interactive digital art gallery where visitors compete against a deep learning model at classifying children's drawings from the **KIDO dataset** as **Happiness** or **Sadness**.
 
-**Presentation**: file:///C:/Users/hp/Downloads/Little_Minds_AI_Team_CLEAN_FINAL.html#/1
-
-🔗 ** demo:** https://little-minds-ai.wonderfulbeach-b600cf62.uaenorth.azurecontainerapps.io/
+ ** demo**: https://little-minds-ai.wonderfulbeach-b600cf62.uaenorth.azurecontainerapps.io/
 ## What you can do
 - **The Challenge:** Play 10 rounds against **Haya**, the AI companion. Each round shows a real child's drawing from the held-out test set. You lock in your guess, then Haya reveals the model's prediction and the original label. Human and AI are scored against the same ground truth.
 - **AI Art Studio:** Upload or draw your own picture, and the model analyzes it live, showing its confidence score.
