@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check secrets are visible
+        run: |
+          if [ -z "${{ secrets.ACR_USERNAME }}" ]; then echo "ACR_USERNAME is MISSING"; else echo "ACR_USERNAME found"; fi
+          if [ -z "${{ secrets.ACR_PASSWORD }}" ]; then echo "ACR_PASSWORD is MISSING"; else echo "ACR_PASSWORD found"; fi
       - uses: docker/login-action@v3
         with:
           registry: littlemindsacr2026.azurecr.io
