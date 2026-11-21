@@ -1,26 +1,25 @@
-name: Build and push to Azure
+name: Build and push
 on:
   push:
     branches: [main]
   workflow_dispatch:
+permissions:
+  contents: read
+  packages: write
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check secrets are visible
-        run: |
-          if [ -z "${{ secrets.ACR_USERNAME }}" ]; then echo "ACR_USERNAME is MISSING"; else echo "ACR_USERNAME found"; fi
-          if [ -z "${{ secrets.ACR_PASSWORD }}" ]; then echo "ACR_PASSWORD is MISSING"; else echo "ACR_PASSWORD found"; fi
       - uses: docker/login-action@v3
         with:
-          registry: littlemindsacr2026.azurecr.io
-          username: ${{ secrets.ACR_USERNAME }}
-          password: ${{ secrets.ACR_PASSWORD }}
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/build-push-action@v6
         with:
           context: .
           push: true
           tags: |
-            littlemindsacr2026.azurecr.io/little-minds-ai:v${{ github.run_number }}
-            littlemindsacr2026.azurecr.io/little-minds-ai:latest
+            ghcr.io/luluh-s/little-minds-ai:v${{ github.run_number }}
+            ghcr.io/luluh-s/little-minds-ai:latest
