@@ -1,5 +1,5 @@
 ---
-title: Little Minds AI: Human vs. Machine
+title: "Little Minds AI: Human vs. Machine"
 emoji: 🎨
 colorFrom: yellow
 colorTo: purple
