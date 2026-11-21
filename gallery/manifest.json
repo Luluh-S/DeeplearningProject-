@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "source": "KIDO dataset, held-out test set",
+  "created": "2026-11-21T16:41:07+00:00",
+  "selection": {
+    "per_class": 20,
+    "seed": 2026,
+    "from": "test split"
+  },
+  "cached_predictions_model": {
+    "file": "final_model.keras",
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2"
+  },
+  "note": "Labels are the original KIDO dataset labels. Cached scores, if present, are real sigmoid outputs of final_model.keras (Sadness score).",
+  "artworks": [
+    {
+      "id": "g001",
+      "image": "images/g001.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "ed35e07599f1acf29bb1b6cc5126562c877da59af0b1c29f85e89e667abc5955",
+      "cached_model_score": 0.186909,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g002",
+      "image": "images/g002.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "8f925a65f332774220405d1c9d82f212448aa368d7346808577284bb9bd6b6f7",
+      "cached_model_score": 0.270997,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g003",
+      "image": "images/g003.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "c41e1752ca383e73939769ffde43dd6e47a6ef4bf75c247e220cbecd79cdbf10",
+      "cached_model_score": 0.35345,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g004",
+      "image": "images/g004.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "afb375c323d1e708e9cee32e8cd5f366f25547e2c6fc809d0930e730c4e9bbf5",
+      "cached_model_score": 0.870203,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g005",
+      "image": "images/g005.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "99095222ce3c6b9c08a0f2ced4737bb5827b55376123bc5e270d4e593318f700",
+      "cached_model_score": 0.260887,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g006",
+      "image": "images/g006.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "72faed9e72bf9a956be905f37eff2525c43aa735f9dfc48e88e12b0d2879aa2d",
+      "cached_model_score": 0.239634,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g007",
+      "image": "images/g007.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "ac4654f41beee15e5f9ca85295b763b6294e7d28608cf275404aae7d686dee1b",
+      "cached_model_score": 0.971962,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g008",
+      "image": "images/g008.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "9a0ff980a18d5c67164c4db16df64a69a227f61e1753221e49c799196d37b6be",
+      "cached_model_score": 0.796995,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g009",
+      "image": "images/g009.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "366902510c1126144ebf18a477bc20202ac35ea773aca2336d156feffc1ba9d7",
+      "cached_model_score": 0.587821,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g010",
+      "image": "images/g010.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "4e9389130a233c35ae022b731245ddac4e080243c98bf094223733e04ddd53cb",
+      "cached_model_score": 0.05571,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g011",
+      "image": "images/g011.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "8677096f89e4b5e4bac36572eee46ba161fdd97b5d54c23a427874f21ae85a72",
+      "cached_model_score": 0.143977,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g012",
+      "image": "images/g012.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "4f3e17e6dd02aa70413f7faf28c54824371ec0eb405853caf195515e126d765b",
+      "cached_model_score": 0.534788,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g013",
+      "image": "images/g013.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "36e5de294cbf61d805154ed035106c9411e65826c6bd50e327035e6ac94ca639",
+      "cached_model_score": 0.374821,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g014",
+      "image": "images/g014.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "58a75b6ffb7e4c8f63a9606adbbc72acb8de3890ad70f4c506011e5363db550b",
+      "cached_model_score": 0.687765,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g015",
+      "image": "images/g015.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "2ae37aa9dc9b38a6fae890ddba8e0b21efa67bc9f38b970c92070fdc3c76818a",
+      "cached_model_score": 0.540073,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g016",
+      "image": "images/g016.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "391d64cd4f21a5bb541ead3467b77d1e9f59681c529414948b5847dfb9b4b5a2",
+      "cached_model_score": 0.146557,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g017",
+      "image": "images/g017.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "035c70842379790b93a1eca1b11562a665c6310fde4666cf7367b29303a61a4a",
+      "cached_model_score": 0.371145,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g018",
+      "image": "images/g018.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "51a359474ceb66072a868f385d4b27efcd43d3c4f7d5ee4e0deaff15d2f9e51d",
+      "cached_model_score": 0.489486,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g019",
+      "image": "images/g019.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "e48c039cf4d085d03ca5e4a87fdddefe4fc8a25b779135c00fa3b7374aed7979",
+      "cached_model_score": 0.64357,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g020",
+      "image": "images/g020.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "3d70efef0d0ad2c09b20db03121d464c8a5b01f81eafdc8fd1a0d32ccfc28e42",
+      "cached_model_score": 0.266834,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g021",
+      "image": "images/g021.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "bd7ca8337eb627e2c68899800cf126ff21dcb270425d11315cfaafc72b8c56d0",
+      "cached_model_score": 0.764142,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g022",
+      "image": "images/g022.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "58948fc474e4855cef92ba20b2736dcce4c783030e85917e89a5eb071589f62c",
+      "cached_model_score": 0.6533,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g023",
+      "image": "images/g023.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "e0cba41eb39bfd48aa21652ab461587d67344c2b593091dc4c620b51367121e8",
+      "cached_model_score": 0.686246,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g024",
+      "image": "images/g024.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "a86fba7dbb84440fbf03876f0e6a2f374890ce489efcf85d62934538f2a2f0c7",
+      "cached_model_score": 0.180334,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g025",
+      "image": "images/g025.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "9577e1a54f7842b6bb9d676821669a33ede2b968fd4696cbd8a8a69ee502a6af",
+      "cached_model_score": 0.128849,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g026",
+      "image": "images/g026.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "94eeb5ef4670f7996aaefab0cb532d9d6a441b938b2974ec6964878c46c20064",
+      "cached_model_score": 0.655145,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g027",
+      "image": "images/g027.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "9d332d17cec3f6b0cc66d450a9f7b0dd8afe02bdd1eb700a753f9fbbf7126bb6",
+      "cached_model_score": 0.663269,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g028",
+      "image": "images/g028.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "ca15b6298d2a93dbbdd766acb06a568121726c069dcf4169ec542468fa83a908",
+      "cached_model_score": 0.171408,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g029",
+      "image": "images/g029.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "1ae15e7fbffecbba77f54661435d7ca83c90553a5bd4867871b1ef8423ede909",
+      "cached_model_score": 0.533585,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g030",
+      "image": "images/g030.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "3895dc88980aff594a73347b6217aac2db949d7a673131957ab1bb762e6ff748",
+      "cached_model_score": 0.755493,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g031",
+      "image": "images/g031.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "fc3f9d33b118a502cd0484b40c6043524d71652ee39d99c3e435007d022aef84",
+      "cached_model_score": 0.824929,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g032",
+      "image": "images/g032.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "a38567f7c0f2fd6f7bca54b8b4675bf072df14cabcd56bf2d08277357c22329c",
+      "cached_model_score": 0.746259,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g033",
+      "image": "images/g033.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "fecf8e6b3ed305ca1dc2a108f510b46d9ca4680a85b6665393606f1add425632",
+      "cached_model_score": 0.754531,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g034",
+      "image": "images/g034.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "6e8c4a75cff3bfee2fdeba8dc274ace9d6fd49e7248e7159b25fd18f578bb7d1",
+      "cached_model_score": 0.311652,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g035",
+      "image": "images/g035.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "db80e3bc5a54ed91883ef532fe84f2f35cbf1e5ff4b081b1baa0760641dc6a64",
+      "cached_model_score": 0.581568,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g036",
+      "image": "images/g036.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "327f00f10ee4635b132d4cb3aed58345c1d51b540722aba927d6ef2e44c55e83",
+      "cached_model_score": 0.12701,
+      "cached_model_label": "Happiness"
+    },
+    {
+      "id": "g037",
+      "image": "images/g037.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "ee9f44d1bd0010a2d5c006ed6d8e44e1c699c992a2a201fccd1300073335d436",
+      "cached_model_score": 0.704392,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g038",
+      "image": "images/g038.jpg",
+      "label": "Happiness",
+      "label_id": 0,
+      "sha256": "335ed1f3d8ceb13907eae629de6a144319737b1207cee8976d7e7263d3748b8d",
+      "cached_model_score": 0.550746,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g039",
+      "image": "images/g039.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "f56c2278ad5e7ba354d38066471bacc3321530fc62fb9804df13029a2e91b629",
+      "cached_model_score": 0.7832,
+      "cached_model_label": "Sadness"
+    },
+    {
+      "id": "g040",
+      "image": "images/g040.jpg",
+      "label": "Sadness",
+      "label_id": 1,
+      "sha256": "66ba0dcc0db2569667a7d7024c4178baa9762fa1365122d36707589c008595b8",
+      "cached_model_score": 0.803873,
+      "cached_model_label": "Sadness"
+    }
+  ]
+}

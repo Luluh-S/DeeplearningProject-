@@ -1,0 +1,14 @@
+# --- Web server ---
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pillow>=10.3
+numpy>=1.26
+
+# --- Deep learning ---
+# IMPORTANT: use the SAME TensorFlow version that trained final_model.keras.
+# The parity cell (scripts/notebook_parity_cell.py) prints it; replace the line below if it differs.
+# The notebook ran on Kaggle with Python 3.13, which requires TensorFlow >= 2.20.
+tensorflow==2.20.0
+# Same Keras version that saved final_model.keras
+keras==3.13.2
